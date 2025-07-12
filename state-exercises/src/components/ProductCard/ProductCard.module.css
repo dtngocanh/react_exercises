@@ -1,0 +1,59 @@
+.card {
+  width: 24rem;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  font-family: sans-serif;
+}
+
+.imageWrapper {
+  height: 16rem;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.details {
+  padding: 10px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #1a1a1a;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #20b26c;
+  margin-bottom: 5px;
+}
+
+.inStock {
+  display: inline-block;
+  background-color: #e6f4ea;
+  color: #20b26c;
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.outOfStock {
+  display: inline-block;
+  background-color: #fdecea;
+  color: #d93025;
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 4px;
+}

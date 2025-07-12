@@ -1,0 +1,13 @@
+footer {
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(67, 66, 66);
+  height: 2.5rem;
+  grid-area: footer;
+}
+
+footer p {
+  padding-top: 10px;
+  color: #ccc;
+}

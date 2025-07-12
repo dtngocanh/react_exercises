@@ -1,0 +1,23 @@
+.task {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 8px 12px;
+  background-color: #fff;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #24292f;
+  margin: 1.6rem;
+}
+.checkbox {
+  margin-right: 1rem;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.label {
+  cursor: default;
+}

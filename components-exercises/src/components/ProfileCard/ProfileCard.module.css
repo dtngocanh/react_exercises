@@ -1,0 +1,35 @@
+.card {
+  width: 25rem;
+  height: 25rem;
+  background-color: #eec8aa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3rem;
+}
+
+.img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.6rem;
+  background-color: #8e6444;
+}
+
+.infor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+
+.button {
+  background-color: #8e6444;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+}

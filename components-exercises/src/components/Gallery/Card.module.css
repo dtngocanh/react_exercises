@@ -1,0 +1,19 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  background-color: white;
+  text-align: center;
+  transition: border 0.3s ease;
+}
+.card:hover {
+  border: 1px solid #333;
+}
+.img {
+  width: 100%;
+  height: auto;
+}
+.title {
+  padding: 1rem;
+  color: #333;
+}

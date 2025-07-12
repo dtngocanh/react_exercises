@@ -1,0 +1,28 @@
+.container {
+  margin: 1.8rem 0;
+  padding: 1.6rem 1.2rem;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+.btnLike,
+.btnReset {
+  display: block;
+  width: 100%;
+  padding: 1.2rem;
+  font-family: Arial, sans-serif;
+}
+
+.btnLike {
+  background-color: #000;
+  color: #fff;
+}
+.btnIcon {
+  margin-right: 1rem;
+}

@@ -1,0 +1,29 @@
+.userSummary {
+  display: flex;
+  align-items: center;
+  background: #f4f4f4;
+  gap: 3rem;
+  justify-content: space-between;
+}
+
+.userSummary input {
+  padding: 0.5rem;
+  width: 200px;
+}
+
+.userSummary button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  background-color: #7b7bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: url("https://cdn-icons-png.flaticon.com/512/3135/3135715.png")
+    no-repeat center/cover;
+}

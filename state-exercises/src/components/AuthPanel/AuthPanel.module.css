@@ -1,0 +1,25 @@
+.authPanel {
+  margin: 1.8rem 0;
+  padding: 1.6rem 1.2rem;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+.top {
+  display: flex;
+  gap: 1.6rem;
+}
+.bottom {
+  width: 20rem;
+  padding: 1.2rem;
+  border: 1px solid #ccc;
+  display: flex;
+  gap: 1.6rem;
+  justify-content: center;
+  background-color: #fafafa;
+}
