@@ -9,11 +9,12 @@ function ProductCard(props) {
       </div>
       <div className={styles.details}>
         <h3 className={styles.title}>{props.name}</h3>
-        {/* {props.inStock ? (
-          <span className={styles.inStock}>In stock</span>
-        ) : (
-          <span className={styles.outOfStock}>Out of stock</span>
-        )} */}
+      </div>
+      <div style={{ display: "flex", gap: "20px" }}>
+        <button onClick={() => props.onDel(props.id)}>Delete</button>
+        <button onClick={() => props.onAdd(props.id, props.name)}>
+          Add Product
+        </button>
       </div>
     </div>
   );

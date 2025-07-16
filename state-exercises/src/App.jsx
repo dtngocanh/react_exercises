@@ -12,8 +12,10 @@ import Theme from "./components/Themes/Theme";
 import BookList from "./components/BookList/BookList";
 import ProductCard from "./components/ProductCard/ProductCard";
 import TaskList from "./components/TaskList/TaskList";
-import ShoppingCard from "./components/ShoppingCard/ShoppingCard";
 import ListContainer from "./components/ListContainer/ListContainer";
+import ShoppingCart from "./components/ShoppingCart/ShoppingCart";
+import Card from "./components/Card/Card";
+import ThemeSwitcher from "./components/ThemeSwitcher/ThemeSwitcher";
 function App() {
   const stylesButton = {
     Primary: {
@@ -112,9 +114,15 @@ function App() {
 
       <TaskList tasks={tasks} onTaskToggle={handleToggle} />
 
-      <ShoppingCard />
-
       <ListContainer showList={true} items={["Apple", "Banana", "Orange"]} />
+
+      <ShoppingCart />
+
+      <Card>
+        <FeedbackForm />
+      </Card>
+      <ThemeSwitcher/>
+      
     </>
   );
 }

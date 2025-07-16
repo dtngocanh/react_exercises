@@ -1,0 +1,13 @@
+.button {
+  margin-left: 1.2rem;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  background-color: #bf5a76;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.container{
+  margin: 1.6rem;
+}
